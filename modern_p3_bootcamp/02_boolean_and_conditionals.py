@@ -86,3 +86,32 @@
 #     print("You are too young, can't come in, sorry!")
 # else:
 #   print('Please enter an age!')
+
+# age = input("How old are you: ")
+# if age:
+#   age = int(age)
+#   if age >= 21:
+#     print('You are good to enter and can drink!')
+#   elif age >= 18:
+#     print("You can enter, but you need a wristband!")
+#   else:
+#     print("You are too young, can't come in, sorry!")
+# else:
+#   print('Please enter an age!')
+
+# # Coding Excercise 11: Positive or Negative Checking
+# from random import randint
+# x = randint(-100, 100)
+# while x == 0:
+#     x = randint(-100, 100)
+# y = randint(-100, 100)
+# while y == 0:
+#     y = randint(-100, 100)
+# if x > 0 and y > 0:
+#     print("both positive")
+# elif x < 0 and y < 0:
+#     print("both negative")
+# elif x > 0 and y < 0:
+#     print("x is positive and y is negative")
+# else:
+#     print("y is positive and x is negative")
