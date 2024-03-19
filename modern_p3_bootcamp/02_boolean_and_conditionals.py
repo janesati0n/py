@@ -67,4 +67,17 @@
 # else:
 #     print('yuck')
 
-# Logical NOT
+# # Logical NOT
+# age = 21
+# if age >= 2 and age <= 8:
+#   print('You pay 2$ child price!')
+# elif age > 65:
+#   print('You pay 5$ senior price!')
+# else:
+#   print('You pay 10$ for adult price!')
+
+# age = 21
+# if not ((age >= 2 and age <= 8) or age >= 65):
+#   print("You are not a child or senior! You pay 10$!")
+
+# Boolean Logic Principles
