@@ -76,7 +76,7 @@
 
 # # Bouncer Code-Along
 # age = input("How old are you: ")
-# if age != '':
+# if age:
 #   if int(age) >= 18 and int(age) < 21:
 #     print("You can enter, but you need a wristband!")
 #   elif int(age) >= 21:
