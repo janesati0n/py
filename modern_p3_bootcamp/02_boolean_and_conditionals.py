@@ -12,3 +12,11 @@
 #   print("You know nothing")
 # else:
 #   print("Carry on")
+
+# # Coding Excercise 8: Lucky Number 7
+# from random import randint
+# choice = randint(1,10)
+# if choice == 7:
+#     print("lucky")
+# else:
+#     print("unlucky")
