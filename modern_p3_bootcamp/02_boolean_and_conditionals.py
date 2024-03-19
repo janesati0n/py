@@ -50,4 +50,21 @@
 # else:
 #   print("You didn't say anything!")
 
-# The Joy of Comparison Operators
+# # Logical AND & OR
+# city = input("Where do you live? ")
+# if city == "los angeles" or city == "san francisco":
+#   print("YOU LIVE IN CALIFORNIA!")
+# else:
+#   print("YOU LIVE SOMEWHERE ELSE!")
+
+# # Coding Excercise 10: Food Classifying Excercise
+# from random import choice
+# food = choice(['apple','grape', 'bacon', 'steak', 'worm', 'dirt'])
+# if food == 'apple' or 'grape':
+#     print('fruit')
+# elif food == 'bacon' or 'steak':
+#     print('meat')
+# else:
+#     print('yuck')
+
+# Logical NOT
