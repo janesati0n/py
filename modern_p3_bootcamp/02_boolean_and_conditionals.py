@@ -69,17 +69,19 @@
 
 # # Logical NOT
 # age = 21
-# if age >= 2 and age <= 8:
-#   print('You pay 2$ child price!')
-# elif age > 65:
-#   print('You pay 5$ senior price!')
-# else:
-#   print('You pay 10$ for adult price!')
-
-# age = 21
 # if not ((age >= 2 and age <= 8) or age >= 65):
 #   print("You are not a child or senior! You pay 10$!")
 # else:
 #   print("You are a child or senior!")
 
-# Boolean Logic Principles
+# # Bouncer Code-Along
+# age = input("How old are you: ")
+# if age != '':
+#   if int(age) >= 18 and int(age) < 21:
+#     print("You can enter, but you need a wristband!")
+#   elif int(age) >= 21:
+#     print('You are good to enter and can drink!')
+#   else:
+#     print("You are too young, can't come in, sorry!")
+# else:
+#   print('Please enter an age!')
