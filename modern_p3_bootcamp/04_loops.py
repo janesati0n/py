@@ -5,7 +5,7 @@
 # for char in 'coffee':
 #   print(char)
 
-# Ranges
+# # Ranges
 # range(7)      # 0,1,2,3,4,5,6
 # range(1,8)    # 1,2,3,4,5,6,7
 # range(1,10,2) # 0,2,4,6,8,10
