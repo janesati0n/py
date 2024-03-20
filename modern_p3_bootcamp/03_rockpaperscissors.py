@@ -21,6 +21,7 @@
 # print('...paper...')
 # print('...scissors...')
 # player1 = input("enter Player 1's choice: ")
+# print('***NO CHEATING***\n' * 50)
 # player2 = input("enter Player 2's choice: ")
 # if player1 == player2:
 #   print('draw')
@@ -41,3 +42,5 @@
 #     print('player2 wins')
 # else:
 #   print('something went wrong')
+
+# Playing against computer
