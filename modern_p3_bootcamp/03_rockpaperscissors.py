@@ -1,5 +1,5 @@
 # # Rock, Paper, Scissors
-# # Basic Version
+# # My First Attempt
 # print('...rock...')
 # print('...paper...')
 # print('...scissors...')
@@ -16,7 +16,7 @@
 # else:
 #   print('wrong input!')
 
-# # Refactoring
+# # Basic Version (from video with refactoring)
 # print('...rock...')
 # print('...paper...')
 # print('...scissors...')
