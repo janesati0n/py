@@ -32,3 +32,10 @@
 #   else:
 #     state = 'odd'
 #   print(f'{num} is {state}')
+
+# # WHILE LOOPS
+# msg = input("Ake je carovne slovicko? ")
+# while msg != 'prosim':
+#   print('NESPRAVNE')
+#   msg = input("Ake je carovne slovicko? ")
+# print('No vidis ze vies')
