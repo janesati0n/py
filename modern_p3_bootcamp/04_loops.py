@@ -22,3 +22,14 @@
 # times = int(times)
 # for i in range(times):
 #   print('CLEAN UP YOUR ROOM!')
+
+# # Excercise: Unlucky numbers
+# for num in range(1,21):
+#   if num == 4 or num == 13:
+#      print(f'{num} is unlucky')
+#   else:
+#     if num % 2 == 0:
+#       odd_even = 'even'
+#     else:
+#       odd_even = 'odd'
+#     print(f'{num} is {odd_even}')
