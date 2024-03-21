@@ -61,3 +61,9 @@
 #     stars += '*'
 #     count += 1
 #     print(stars)
+
+# # Excercise: Stop Copying Me
+# reply = input("Hey, how's it going? ")
+# while reply != 'stop copying me':
+#   reply = input(f"{reply} ")
+# print('UGH FINE YOU WIN')
