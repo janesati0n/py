@@ -39,3 +39,25 @@
 #   print('NESPRAVNE')
 #   msg = input("Ake je carovne slovicko? ")
 # print('No vidis ze vies')
+
+# num = 0
+# while num <= 10:
+#   num += 1
+#   print(num)
+
+# # Excercise: Emoji Art
+# for num in range(1,11):
+#   print("*" * num)
+
+# times = 1
+# while times <= 10:
+#   print("*" * times)
+#   times += 1
+
+# for num in range(1,11):
+#   count = 1
+#   stars = ''
+#   while count <= num:
+#     stars += '*'
+#     count += 1
+#     print(stars)
