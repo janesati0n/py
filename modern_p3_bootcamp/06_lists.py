@@ -1,9 +1,9 @@
-# # Shopping List (first attempt)
+# # Shopping List
 # shopping_list = ['applesauce', 'house plant', 'printer paper', 'protein powder', 'zebra print rug (faux)']
 # arana = None
 # while arana != 'q':
 #   arana = input("Add something to the cart? Type q to quit: ")
-#   shopping_list += arana
+#   shopping_list.append(arana)
 # print("YOUR FINAL GROCERY LIST")
 # for i in shopping_list:
 #   print(i)
