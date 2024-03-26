@@ -19,8 +19,17 @@
 #   print(numbers[i])
 #   i += 1
 
-# # List methods: Append, Insert and Extend
+# # List Methods: Append, Insert and Extend
 # data = [1, 2, 3]
 # data.append(4) # adds value to the end [1, 2, 3, 4]
 # data.extend([5,6]) # adds multiple values to the end [1, 2, 3, 4, 5, 6]
 # data.insert(2, 'Hi!') # [1, 2, 'Hi!', 3, 4, 5 ,6]
+
+# # List Methods: Clear, Pop and Remove
+# first_list = [1, 2, 3, 4]
+# first_list.clear() # remove all []
+# first_list.pop() # remove by index (default=last) [1, 2, 3]
+# first_list.pop(1) # remove by index [1, 3, 4]
+# first_list.remove(2) # remove by value (first to match) [1, 3, 4]
+
+# # List Methods: Index, Count, Sort, Reverse, Join
