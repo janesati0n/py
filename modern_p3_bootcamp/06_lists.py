@@ -51,3 +51,13 @@
 
 # name = ['Mr', 'Steele']
 # '. '.join(name) # 'Mr. Steele'
+
+# # Slices
+# first_list = [1, 2, 3, 4, 5, 6]
+# first_list[1:] # [2, 3, 4] //what index to start slicing from
+# first_list[3:] # [4] //[start:]
+# first_list[-1:] # [4]
+# first_list[:2] # [1, 2] //[:end]
+# first_list[:-1] # [1, 2, 3]
+# first_list[::2] # [1, 3, 5] //[::step]
+# first_list[2::-1] # [3, 2, 1]
