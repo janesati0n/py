@@ -61,3 +61,8 @@
 # first_list[:-1] # [1, 2, 3]
 # first_list[::2] # [1, 3, 5] //[::step]
 # first_list[2::-1] # [3, 2, 1]
+
+# # Swapping Values
+# names = ['James', 'Michelle']
+# names[0], names[1] = names[1], names[0]
+# print(names) # ['Michelle', 'James']
