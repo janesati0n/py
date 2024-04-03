@@ -33,3 +33,21 @@
 # first_list.remove(2) # remove by value (first to match) [1, 3, 4]
 
 # # List Methods: Index, Count, Sort, Reverse, Join
+# numbers = [5, 5, 6, 7, 5, 8, 8, 9, 10]
+# numbers.index(6) # 2 //returns index of specified item
+# numbers.index(5, 2) # 4 //specify starting point (from position 2)
+# names = ['colt', 'blue', 'arya', 'lena', 'colt', 'selena', 'pablo']
+# names.count('colt') # 2
+# names.count('jared') # 0
+# names.reverse() # names = ['pablo', 'selena'...]
+# another_list = [6,4,1,2,5]
+# another_list.sort()
+# print(another_list) # [1,2,4,5,6]
+# names.append('ARYA')
+# names.sort() # ['ARYA', 'arya', 'blue'...]
+
+# words = ['Coding', 'Is', 'Fun!']
+# ' '.join(words) # 'Coding is Fun!'
+
+# name = ['Mr', 'Steele']
+# '. '.join(name) # 'Mr. Steele'
