@@ -12,3 +12,9 @@
 # print(doubled_numbers) # [2, 4, 6, 8, 10]
 
 # # Use with conditional logic
+# numbers = [1, 2, 3, 4, 5, 6]
+# evens = [num for num in numbers if num % 2 == 0]
+# odds = [num for num in numbers if num % 2 != 0]
+# print(f'odds: {odds}, evens: {evens}')
+# [num*2 if num % 2 == 0 else num/2 for num in numbers]
+
