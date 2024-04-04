@@ -56,3 +56,7 @@
 # # Coding Excercise 24
 # answer = [[num for num in range(3)] for val in range(3)]
 # print(answer) # [[0, 1, 2], [0, 1, 2], [0, 1, 2]]
+
+# # Coding Excercise 25
+# answer = [[num for num in range(10)] for val in range(10)]
+# print(answer)
