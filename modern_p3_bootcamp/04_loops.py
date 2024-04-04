@@ -37,3 +37,18 @@
 # # Coding Excercise 23
 # Create list containing letters from amazing but not the vowels
 # answer = [val for val in 'amazing' if val not in 'aeiou']
+
+# # Nested List
+# nested_list = [[1,2,3], [4,5,6], [7,8,9]]
+# nested_list[0][1] # 2
+# nested_list[-1][1] # 8
+# for l in nested_list:
+#   for val in l:
+#     print(val)
+
+# coords = [[10.423, 9.132], [37.212, -14.092], [21.367, 32.572]]
+# for loc in coords:
+#   print(loc)
+
+# board = [['X' if num % 2 != 0 else "O" for num in range(1,4)] for val in range(1,4)]
+# print(board) # [['X', 'O', 'X'], ['X', 'O', 'X'], ['X', 'O', 'X']]
