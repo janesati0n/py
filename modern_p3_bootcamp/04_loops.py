@@ -52,3 +52,7 @@
 
 # board = [['X' if num % 2 != 0 else "O" for num in range(1,4)] for val in range(1,4)]
 # print(board) # [['X', 'O', 'X'], ['X', 'O', 'X'], ['X', 'O', 'X']]
+
+# # Coding Excercise 24
+# answer = [[num for num in range(3)] for val in range(3)]
+# print(answer) # [[0, 1, 2], [0, 1, 2], [0, 1, 2]]
