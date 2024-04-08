@@ -73,8 +73,8 @@
 # d.get('jibberish') # None
 
 # # Coding Excercise 29: Dictionary Access
-# from random import choice
-# food = choice(["cheese pizza", "quiche","morning bun","gummy bear","tea cake"])
+# from random import choice #DON'T CHANGE!
+# food = choice(["cheese pizza", "quiche","morning bun","gummy bear","tea cake"]) #DON'T CHANGE!
 
 # bakery_stock = {
 #     "almond croissant" : 12,
@@ -88,3 +88,8 @@
 #     print(f"{bakery_stock.get(food)} left")
 # else:
 #     print("We don't make that")
+
+# # Coding Excercise 30: Fromkeys Excercise
+# game_properties = ["current_score", "high_score", "number_of_lives", "items_in_inventory", "power_ups", "ammo", "enemies_on_screen", "enemy_kills", "enemy_kill_streaks", "minutes_played", "notifications", "achievements"]
+# initial_game_state = dict.fromkeys(game_properties, 0)
+
