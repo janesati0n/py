@@ -93,3 +93,14 @@
 # game_properties = ["current_score", "high_score", "number_of_lives", "items_in_inventory", "power_ups", "ammo", "enemies_on_screen", "enemy_kills", "enemy_kill_streaks", "minutes_played", "notifications", "achievements"]
 # initial_game_state = dict.fromkeys(game_properties, 0)
 
+# # Dictionary Methods: Pop, Popitems and Update
+# d = dict('a'=1, 'b'=2, 'c'=3)
+# d.pop() # TypeError: pop expected at least 1 arguments, got 0
+# d.pop('a') # 1 # Takes argument and removes key-value pair
+# d # {'c': 3, 'b': 2}
+# d.pop('e') # KeyError
+
+# d = dict('a'=1, 'b'=2, 'c'=3, 'd'=4, 'e'=5)
+# d.popitem() # ('d', 4) # Removes random key in a dictionary
+# d.popitem('a') # TypeError: popitem() takes no argument (1 given)
+
