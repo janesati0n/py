@@ -49,3 +49,27 @@
 #     total_donations += value
 
 # total_donations = sum(donations.values()) # Better method, not covered yet
+
+# # Using In With Dictionaries
+# "name" in instructor # True
+# "awesome" in instructor # False
+
+# # Dictionary Methods: Clear, Copy, Fromkeys and Get
+# d = dict(a=1, b=2, c=3)
+# d.clear() # Clears all the keys and values in a dictionary
+# d # {}
+
+# c = d.copy() # Makes a copy of a dictionary
+# c # {'a': 1, 'b': 2, 'c': 3}
+# c is d # False
+
+# {}.fromkeys("a", "b") # {'a': 'b'}
+# {}.fromkeys("email", "unknown") # {'email': 'unknown'}
+# {}.fromkeys("a", "[1,2,3,4,5]") # {'a': '[1, 2, 3, 4, 5]'}
+
+# d[a] # 1
+# d.get('a') # 1
+# d['jibberish'] # KeyError
+# d.get('jibberish') # None
+
+# # Coding Excercise 30: Fromkeys Excercise
