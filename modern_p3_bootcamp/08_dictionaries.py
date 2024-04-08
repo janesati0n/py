@@ -22,3 +22,12 @@
 # instructor['name'] # 'Colt'
 # instructor['thing'] # KeyError
 
+# # Coding Excercise 27
+# artist = {
+#     "first": "Neil",
+#     "last": "Young",
+# }
+
+# full_name = artist['first'] + ' ' + artist['last'] # Solution 1: Concat method
+# full_name = f"{artist['first']} {artist['last']}"  # Solution 2: F-string method
+# full_name = "{} {}".format(artist["first"], artist["last"]) # Solution 3: Format method
