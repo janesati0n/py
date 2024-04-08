@@ -73,8 +73,8 @@
 # d.get('jibberish') # None
 
 # # Coding Excercise 29: Dictionary Access
-# from random import choice #DON'T CHANGE!
-# food = choice(["cheese pizza", "quiche","morning bun","gummy bear","tea cake"]) #DON'T CHANGE!
+# from random import choice
+# food = choice(["cheese pizza", "quiche","morning bun","gummy bear","tea cake"])
 
 # bakery_stock = {
 #     "almond croissant" : 12,
@@ -104,3 +104,10 @@
 # d.popitem() # ('d', 4) # Removes random key in a dictionary
 # d.popitem('a') # TypeError: popitem() takes no argument (1 given)
 
+# first = dict('a'=1, 'b'=2, 'c'=3, 'd'=4, 'e'=5)
+# second = {}
+# second.update(first)
+# second # {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
+# second['a'] = "AMAZING" # overwrites an existing key
+# second.update(first) # the update overrides our values
+# second # {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
