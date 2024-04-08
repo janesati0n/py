@@ -73,8 +73,8 @@
 # d.get('jibberish') # None
 
 # # Coding Excercise 29: Dictionary Access
-# from random import choice #DON'T CHANGE!
-# food = choice(["cheese pizza", "quiche","morning bun","gummy bear","tea cake"]) #DON'T CHANGE!
+# from random import choice
+# food = choice(["cheese pizza", "quiche","morning bun","gummy bear","tea cake"])
 
 # bakery_stock = {
 #     "almond croissant" : 12,
