@@ -71,4 +71,9 @@
 # answer = dict(person) # Solution 3: Simple and elegant (if you have list of pairs)
 
 # # Coding Excercise 34: Vowels Dict Excercise
+# {'a': 0, 'e': 0, 'i': 0, 'o': 0, 'u': 0}
+# answer = {char:0 for char in 'aeiou'} # using dict comprehension
+# answer = dict.fromkeys("aeiou", 0) # using dict.fromkeys
 
+# # Coding Excercise 35: ASCII Codes Dictionary
+# answer = {count: chr(count) for count in range(65,91)}
