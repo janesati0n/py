@@ -47,7 +47,10 @@
 
 # instructor = {'name': 'Colt', 'city': 'San Francisco', 'color': 'purple'}
 # yelling_instructor = {k.upper():v.upper() for k, v in instructor.items()}
-# print(yelling_instructor) #{'NAME': 'COLT', 'CITY': 'SAN FRANCISCO', 'COLOR': 'PURPLE'}
+# print(yelling_instructor) # {'NAME': 'COLT', 'CITY': 'SAN FRANCISCO', 'COLOR': 'PURPLE'}
+
+# yelling_instructor = {(k.upper() if k is 'color' else k):v.upper() for k, v in instructor.items()}
+# print(yelling_instructor) # {'name': 'COLT', 'city': 'SAN FRANCISCO', 'COLOR': 'PURPLE'}
 
 # num_list = [1, 2, 3, 4]
 # num_is_odd = {num: ('even' if num % 2 == 0 else 'odd') for num in num_list}
