@@ -55,3 +55,20 @@
 # num_list = [1, 2, 3, 4]
 # num_is_odd = {num: ('even' if num % 2 == 0 else 'odd') for num in num_list}
 # print(num_is_odd) # {1: 'odd', 2: 'even', 3: 'odd', 4: 'even'}
+
+# # Coding Excercise 32: State Abbreviations Excercise
+# list1 = ["CA", "NJ", "RI"]
+# list2 = ["California", "New Jersey", "Rhode Island"]
+# answer = {list1[i]: list2[i] for i in range(0, len(list1))}
+# print(answer)
+
+# dict(zip(list1,list2)) # zip method /not covered yet/
+
+# # Coding Excercise 33: List to Dictionary Excercise
+# person = [["name", "Jared"], ["job", "Musician"], ["city", "Bern"]]
+# answer = {thing[0]: thing[1] for thing in person} # Solution 1: Dictionary comprehension
+# answer = {k:v for k,v in person} # Solution 2: Without references to list indexes
+# answer = dict(person) # Solution 3: Simple and elegant (if you have list of pairs)
+
+# # Coding Excercise 34: Vowels Dict Excercise
+
