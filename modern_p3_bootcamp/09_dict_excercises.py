@@ -40,3 +40,15 @@
 #   print(song['title'])
 
 # # Dictionary Comprehension
+# str1 = "ABC"
+# str2 = "123"
+# combo = {str1[i]: str2[i] for i in range(0, len(str1))}
+# print(combo) # # {'A': '1', 'B': '2', 'C': '3'}
+
+# instructor = {'name': 'Colt', 'city': 'San Francisco', 'color': 'purple'}
+# yelling_instructor = {k.upper():v.upper() for k, v in instructor.items()}
+# print(yelling_instructor) #{'NAME': 'COLT', 'CITY': 'SAN FRANCISCO', 'COLOR': 'PURPLE'}
+
+# num_list = [1, 2, 3, 4]
+# num_is_odd = {num: ('even' if num % 2 == 0 else 'odd') for num in num_list}
+# print(num_is_odd) # {1: 'odd', 2: 'even', 3: 'odd', 4: 'even'}
