@@ -18,3 +18,14 @@ months = ('January', 'February', 'March', 'April', 'May', 'June', 'July', 'Augus
 # t.index(5) # ValueError
 # t.index(3) # 2 (first matching index)
 
+# # Introduction to Sets
+# s = set({1,4,5}) # syntax
+# s = {1,4,5} # syntax
+
+# cities = {'Los Angeles', 'Boulder', 'Kyoto', 'Florence', 'Santiago', 'Los Angeles', 'Shanghai', 'Kyoto', 'Oslo', 'Tokyo', 'San Francisco'}
+# print(list(set(cities)))
+# print(len(set(cities)))
+
+# # Set Methods and Set Math
+
+# # Coding Excercise 36: Tuples and Sets Excercise
