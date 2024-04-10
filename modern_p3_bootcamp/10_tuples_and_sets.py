@@ -57,3 +57,14 @@ months = ('January', 'February', 'March', 'April', 'May', 'June', 'July', 'Augus
 # unique_stuff = set(stuff)
 
 # # Set Comprehension
+# {x**2 for x in range(10)}
+# {0, 1, 64, 4, 36, 9, 16, 49, 81, 25}
+# {x:x**2 for x in range(10)}
+# {0: 0, 1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64, 9: 81}
+
+# {char.upper() for char in 'hello'}
+# {'O', 'L', 'H', 'E'}
+
+# string = 'sequoia'
+# len({char for char in string if char in 'aeiou'}) == 5 # check if string has all 5 vowels
+# True
