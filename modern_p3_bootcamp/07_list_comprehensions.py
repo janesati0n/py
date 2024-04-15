@@ -1,20 +1,46 @@
-# # Looping
-# numbers = [1, 2, 3, 4, 5]
-# doubled_numbers = []
-# for num in numbers:
-#   doubled_number = num * 2
-#   doubled_numbers.append(doubled_number)
-# print(doubled_numbers) # [2, 4, 6, 8, 10]
+# # Defining Functions
+# def sing_happy_birthday():
+#   print('Happy Birthday To You')
+#   print('Happy Birthday To You')
+#   print('Happy Birthday Dear You')
+#   print('Happy Birthday To You')
+# sing_happy_birthday()
 
-# # List Comprehension
-# numbers = [1, 2, 3, 4, 5]
-# doubled_numbers = [num * 2 for num in numbers]
-# print(doubled_numbers) # [2, 4, 6, 8, 10]
+# # Coding Excercise 37: Your first function
+# def make_noise():
+#     print('THE CROWD GOES WILD')
+# make_noise()
 
-# # Use with conditional logic
-# numbers = [1, 2, 3, 4, 5, 6]
-# evens = [num for num in numbers if num % 2 == 0]
-# odds = [num for num in numbers if num % 2 != 0]
-# print(f'odds: {odds}, evens: {evens}')
-# [num*2 if num % 2 == 0 else num/2 for num in numbers]
+# # The Magical Return Keyword
+# def square_of_7():
+#   return 7**2
+# result = square_of_7()
+# print(result)
 
+# # Writing a coin_flip Function Using Random
+# from random import random
+
+# def flip_coin():
+#   if random() > 0.5:
+#     return "Heads"
+#   else:
+#     return "Tails"
+# print(flip_coin())
+
+# # Coding Excercise 38: Super Quick Return Excercise
+# def speak_pig():
+#     return 'oink'
+# speak_pig()
+
+# # Coding Excercise 39: Generating Evens Excercise
+# def generate_evens():
+#   return [num for num in range(1,50) if num % 2 == 0] # using list comprehension
+
+# def generate_evens():
+#   result = []
+#   for x in range(1,50):   # using a loop
+#     if x % 2 == 0:
+#       result.append(x)
+#   return result
+
+# # Parameters
