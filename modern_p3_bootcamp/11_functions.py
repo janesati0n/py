@@ -85,3 +85,13 @@
 #   return False    # avoid unnecessary "else"
 # print(is_odd_number(4))
 # print(is_odd_number(9))
+
+# # Coding Excercise 41: Fix this function!
+# def count_dollar_signs(word):
+#     count = 0
+#     for char in word:
+#         if char == '$':
+#             count += 1
+#     return count
+
+# # Default Parameters
