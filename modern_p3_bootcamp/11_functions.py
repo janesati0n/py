@@ -28,3 +28,19 @@
 # print(flip_coin())
 
 # # Coding Excercise 38: Super Quick Return Excercise
+# def speak_pig():
+#     return 'oink'
+# speak_pig()
+
+# # Coding Excercise 39: Generating Evens Excercise
+# def generate_evens():
+#   return [num for num in range(1,50) if num % 2 == 0] # using list comprehension
+
+# def generate_evens():
+#   result = []
+#   for x in range(1,50):   # using a loop
+#     if x % 2 == 0:
+#       result.append(x)
+#   return result
+
+# # Parameters
