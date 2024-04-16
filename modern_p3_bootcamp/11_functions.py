@@ -165,3 +165,11 @@
 #   total += 1
 #   return total
 # increment() # 1
+
+# def outer():
+#   count = 0
+#   def inner():
+#     nonlocal count # let us modify parent's variable in a child(nested) function
+#     count += 1
+#     return count
+#   return inner()
