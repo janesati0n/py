@@ -143,3 +143,25 @@
 # full_name(last='Steele', first='Colt') # Your name is Colt Steele
 
 # # Scope
+# instructor = 'Colt' # exhibit A
+# def say_hello():
+#   return f'Hello {instructor}'
+# say_hello() # 'Hello Colt'
+
+# def say_hello(): # exhibit B
+#   instructor = 'Colt'
+#   return f'Hello {instructor}'
+# say_hello() # # print(instructor) # 'NameError'
+
+# total = 0 # global variable
+# def increment():
+#   total += 1
+#   return total
+# increment() # Error! Local variable 'total' referenced before assignment
+
+# total = 0
+# def increment():
+#   global total # reference variable that was originally asigned on global
+#   total += 1
+#   return total
+# increment() # 1
