@@ -95,3 +95,45 @@
 #     return count
 
 # # Default Parameters
+# def exponent(num, power=2):
+#   return num ** power
+# print(exponent(2,3)) # 8
+# print(exponent(3)) # 9
+# print(exponent(7)) # 49
+
+# def add(a,b):
+#   return a+b
+# def math(a,b,fn=add):
+#   return fn(a,b)
+# def substract(a,b):
+#   return a-b
+# math(2,2) # 4
+# math(2,2,substract) # 0
+
+# # Coding Excercise 42: Talking Animals
+# Define speak below:
+# def speak(animal='dog'):
+#     if animal == 'pig':
+#         return 'oink'
+#     elif animal == 'duck':
+#         return 'quack'
+#     elif animal == 'cat':
+#         return 'meow'
+#     elif animal == 'dog':
+#         return 'woof'
+#     else:
+#         return '?'
+
+# speak()  # "woof"
+# speak("pig")  # "oink"
+# speak("duck")  # "quack"
+# speak("cat")  # "meow"
+# speak("dog")  # "woof"
+# speak("banana")  # "?"
+
+# # Solution 2: Using dictionary.get() method
+# def speak(animal='dog'):
+#   noises = {'pig':'oink', 'duck':'quack', 'cat':'meow', 'dog':'woof'}
+#   return noises.get(animal, '?')
+
+# # Keyword Arguments
