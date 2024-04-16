@@ -137,3 +137,9 @@
 #   return noises.get(animal, '?')
 
 # # Keyword Arguments
+# def full_name(first,last):
+#   return "Your name is {first} {last}"
+# full_name(first='Colt', last='Steele') # Your name is Colt Steele
+# full_name(last='Steele', first='Colt') # Your name is Colt Steele
+
+# # Scope
