@@ -12,3 +12,12 @@
 # return_day(1) # "Sunday"
 # return_day(7) # "Saturday"
 # return_day(41) # None
+
+# # Coding Excercise 45: Last Element
+# def last_element(l):
+#     if l:
+#         return l[-1]
+#     else:
+#         return None
+# last_element([1,2,3]) # 3
+# last_element([]) # None
