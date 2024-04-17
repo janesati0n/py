@@ -21,3 +21,17 @@
 #         return None
 # last_element([1,2,3]) # 3
 # last_element([]) # None
+
+# # Coding Excercise 46: Compare numbers
+# def number_compare(a,b):
+#     if a == b:
+#         return 'Numbers are equal'
+#     elif a > b:
+#         return 'First is greater'
+#     else:
+#         return 'Second is greater'
+# number_compare(1,1) # "Numbers are equal"
+# number_compare(1,0) # "First is greater"
+# number_compare(2,4) # "Second is greater"
+
+# # Coding Excercise 47: Single Letter Count
