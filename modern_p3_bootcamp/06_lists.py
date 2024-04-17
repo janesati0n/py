@@ -1,68 +1,72 @@
-# # Shopping List
-# shopping_list = ['applesauce', 'house plant', 'printer paper', 'protein powder', 'zebra print rug (faux)']
-# arana = None
-# while arana != 'q':
-#   arana = input("Add something to the cart? Type q to quit: ")
-#   shopping_list.append(arana)
-# print("YOUR FINAL GROCERY LIST")
-# for i in shopping_list:
-#   print(i)
+# # Coding Excercise 43: Product
+# def product(num1, num2):
+#     return num1 * num2
+# product(2,2) # 4
+# product(2,-2) # -4
 
-# # Iterating Over Lists
-# colors = ['purple', 'teal', 'magenta']
-# for color in colors:
-#   print(color)
+# # Coding Excercise 44: Return Day
+# def return_day(x):
+#     days = {1:'Sunday', 2:'Monday', 3:'Tuesday', 4:'Wednesday', 5:'Thursday', 6:'Friday', 7:'Saturday'}
+#     return days.get(x)
 
-# numbers = [1, 2, 3, 4]
-# i = 0
-# while i < len(numbers):
-#   print(numbers[i])
-#   i += 1
+# return_day(1) # "Sunday"
+# return_day(7) # "Saturday"
+# return_day(41) # None
 
-# # List Methods: Append, Insert and Extend
-# data = [1, 2, 3]
-# data.append(4) # adds value to the end [1, 2, 3, 4]
-# data.extend([5,6]) # adds multiple values to the end [1, 2, 3, 4, 5, 6]
-# data.insert(2, 'Hi!') # [1, 2, 'Hi!', 3, 4, 5 ,6]
+# # Coding Excercise 45: Last Element
+# def last_element(l):
+#     if l:
+#         return l[-1]
+#     else:
+#         return None
+# last_element([1,2,3]) # 3
+# last_element([]) # None
 
-# # List Methods: Clear, Pop and Remove
-# first_list = [1, 2, 3, 4]
-# first_list.clear() # remove all []
-# first_list.pop() # remove by index (default=last) [1, 2, 3]
-# first_list.pop(1) # remove by index [1, 3, 4]
-# first_list.remove(2) # remove by value (first to match) [1, 3, 4]
+# # Coding Excercise 46: Compare numbers
+# def number_compare(a,b):
+#     if a > b:
+#         return 'First is greater'
+#     elif a < b:
+#         return 'Second is greater'
+#     return 'Numbers are equal'
+# number_compare(1,1) # "Numbers are equal"
+# number_compare(1,0) # "First is greater"
+# number_compare(2,4) # "Second is greater"
 
-# # List Methods: Index, Count, Sort, Reverse, Join
-# numbers = [5, 5, 6, 7, 5, 8, 8, 9, 10]
-# numbers.index(6) # 2 //returns index of specified item
-# numbers.index(5, 2) # 4 //specify starting point (from position 2)
-# names = ['colt', 'blue', 'arya', 'lena', 'colt', 'selena', 'pablo']
-# names.count('colt') # 2
-# names.count('jared') # 0
-# names.reverse() # names = ['pablo', 'selena'...]
-# another_list = [6,4,1,2,5]
-# another_list.sort()
-# print(another_list) # [1,2,4,5,6]
-# names.append('ARYA')
-# names.sort() # ['ARYA', 'arya', 'blue'...]
+# # Coding Excercise 47: Single Letter Count
+# def single_letter_count(string,letter):
+#   return string.lower().count(letter.lower())
+# single_letter_count("Hello World", "h") # 1
+# single_letter_count("Hello World", "z") # 0
+# single_letter_count("HelLo World", "l") # 3
 
-# words = ['Coding', 'Is', 'Fun!']
-# ' '.join(words) # 'Coding is Fun!'
+# # Coding Excercise 48: Multiple Letter Count
+# def multiple_letter_count(string):
+#     return {char:string.count(char) for char in string}
+# multiple_letter_count("awesome") # {'a': 1, 'e': 2, 'm': 1, 'o': 1, 's': 1, 'w': 1}
 
-# name = ['Mr', 'Steele']
-# '. '.join(name) # 'Mr. Steele'
+# # Coding Excercise 49: List Manipulation
+# def list_manipulation(collection, command, location, value=None):
+#     if(command == "remove" and location == "end"):
+#         return collection.pop()
+#     elif(command == "remove" and location == "beginning"):
+#         return collection.pop(0)
+#     elif(command == "add" and location == "beginning"):
+#         collection.insert(0,value)
+#         return collection
+#     elif(command == "add" and location == "end"):
+#         collection.append(value)
+#         return collection
+# list_manipulation([1,2,3], "remove", "end") # 3
+# list_manipulation([1,2,3], "remove", "beginning") #  1
+# list_manipulation([1,2,3], "add", "beginning", 20) #  [20,1,2,3]
+# list_manipulation([1,2,3], "add", "end", 30) #  [1,2,3,30]
 
-# # Slices
-# first_list = [1, 2, 3, 4, 5, 6]
-# first_list[1:] # [2, 3, 4] //what index to start slicing from
-# first_list[3:] # [4] //[start:]
-# first_list[-1:] # [4]
-# first_list[:2] # [1, 2] //[:end]
-# first_list[:-1] # [1, 2, 3]
-# first_list[::2] # [1, 3, 5] //[::step]
-# first_list[2::-1] # [3, 2, 1]
-
-# # Swapping Values
-# names = ['James', 'Michelle']
-# names[0], names[1] = names[1], names[0]
-# print(names) # ['Michelle', 'James']
+# # Coding Excercise 50: Palindrome
+# def is_palindrome(string):
+#     stripped = string.replace(" ", "").lower()
+#     return stripped == stripped[::-1]
+# is_palindrome('testing') # False
+# is_palindrome('tacocat') # True
+# is_palindrome('amanaplanacanalpanama') # True
+# is_palindrome('a man a plan a canal panama') # True
