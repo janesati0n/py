@@ -39,3 +39,21 @@
 # single_letter_count("Hello World", "h") # 1
 # single_letter_count("Hello World", "z") # 0
 # single_letter_count("HelLo World", "l") # 3
+
+# # Coding Excercise 48: Multiple Letter Count
+# def multiple_letter_count(string):
+#     return {char:string.count(char) for char in string}
+
+# # Coding Excercise 49: List Manipulation
+# def list_manipulation(collection, command, location, value=None):
+#     if(command == "remove" and location == "end"):
+#         return collection.pop()
+#     elif(command == "remove" and location == "beginning"):
+#         return collection.pop(0)
+#     elif(command == "add" and location == "beginning"):
+#         collection.insert(0,value)
+#         return collection
+#     elif(command == "add" and location == "end"):
+#         collection.append(value)
+#         return collection
+
