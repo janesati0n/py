@@ -43,6 +43,7 @@
 # # Coding Excercise 48: Multiple Letter Count
 # def multiple_letter_count(string):
 #     return {char:string.count(char) for char in string}
+# multiple_letter_count("awesome") # {'a': 1, 'e': 2, 'm': 1, 'o': 1, 's': 1, 'w': 1}
 
 # # Coding Excercise 49: List Manipulation
 # def list_manipulation(collection, command, location, value=None):
@@ -56,4 +57,16 @@
 #     elif(command == "add" and location == "end"):
 #         collection.append(value)
 #         return collection
+# list_manipulation([1,2,3], "remove", "end") # 3
+# list_manipulation([1,2,3], "remove", "beginning") #  1
+# list_manipulation([1,2,3], "add", "beginning", 20) #  [20,1,2,3]
+# list_manipulation([1,2,3], "add", "end", 30) #  [1,2,3,30]
 
+# # Coding Excercise 50: Palindrome
+# def is_palindrome(string):
+#     stripped = string.replace(" ", "").lower()
+#     return stripped == stripped[::-1]
+# is_palindrome('testing') # False
+# is_palindrome('tacocat') # True
+# is_palindrome('amanaplanacanalpanama') # True
+# is_palindrome('a man a plan a canal panama') # True
