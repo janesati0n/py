@@ -79,11 +79,11 @@
 
 # # Coding Excercise 52: Multiply Even Numbers
 # def multiply_even_numbers(list):
-#     total = 1
-#     for value in list:
-#         if value % 2 == 0:
-#             total = total * value
-#     return total
+#   total = 1
+#   for value in list:
+#     if value % 2 == 0:
+#       total = total * value
+#   return total
 # multiply_even_numbers([2,3,4,5,6]) # 48
 
 # # Coding Excercise 53: Capitalize
