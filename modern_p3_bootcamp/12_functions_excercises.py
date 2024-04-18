@@ -91,3 +91,12 @@
 #   return word[0].upper() + word[1:]
 # capitalize("jamaica") # "Jamaica"
 # capitalize("matt") # "Matt"
+
+# # Coding Excercise 54: Compact
+# def compact(list):
+#   return [val for val in list if val]
+
+# # Coding Excercise 55: Intersection
+
+
+# # Coding Excercise 56" Partition
