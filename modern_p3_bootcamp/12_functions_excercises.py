@@ -87,3 +87,7 @@
 # multiply_even_numbers([2,3,4,5,6]) # 48
 
 # # Coding Excercise 53: Capitalize
+# def capitalize(word):
+#   return word[0].upper() + word[1:]
+# capitalize("jamaica") # "Jamaica"
+# capitalize("matt") # "Matt"
