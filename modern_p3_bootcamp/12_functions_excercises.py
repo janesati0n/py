@@ -97,6 +97,9 @@
 #   return [val for val in list if val]
 
 # # Coding Excercise 55: Intersection
-
+# def intersection(list1, list2):
+#   return [num for num in list1 if num in list2]
+# intersection([1,2,3], [2,3,4])    #[2,3]
+# intersection(['a','b','z'], ['x','y','z']) .  # ['z']
 
 # # Coding Excercise 56" Partition
