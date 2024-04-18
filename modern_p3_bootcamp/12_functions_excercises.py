@@ -70,3 +70,10 @@
 # is_palindrome('tacocat') # True
 # is_palindrome('amanaplanacanalpanama') # True
 # is_palindrome('a man a plan a canal panama') # True
+
+# # Coding Excercise 51: Frequency
+# def frequency(collection, search_term):
+#     return collection.count(search_term)
+# frequency([1,2,3,4,4,4], 4) # 3
+# frequency([True, False, True, True], False) # 1
+
