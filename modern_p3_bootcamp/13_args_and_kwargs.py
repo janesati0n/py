@@ -17,3 +17,7 @@
 # print(ensure_correct_info(1, True, "Steele", "Colt")) # Welcome back Colt!
 
 # # Coding Excercise 57: The Purple Test
+# def contains_purple(*args):
+#   if "purple" in args:
+#     return True
+#   return False
