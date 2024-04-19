@@ -15,3 +15,5 @@
 
 # print(ensure_correct_info("hello", False, 78)) # Not sure who you are
 # print(ensure_correct_info(1, True, "Steele", "Colt")) # Welcome back Colt!
+
+# # Coding Excercise 57: The Purple Test
