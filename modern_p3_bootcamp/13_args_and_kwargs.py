@@ -63,3 +63,11 @@
 # instructor - "Colt"
 # kwargs - {'last_name': "Steele", "job: Instructor"} # type - dictionary
 # [1, 2, (3,), 'Colt', {'last_name': 'Steele', 'job': 'Instructor'}]
+
+# # Tuple Unpacking
+# def sum_all_values(*args):
+#   total = 0
+#   for num in args:
+#     total += num
+#   print(total)
+# sum_all_values(4,8,6)
