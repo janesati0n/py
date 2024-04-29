@@ -4,3 +4,5 @@
 # add = lambda a,b: a + b
 
 # # Coding Excercise 61: Lambda
+# cube = lambda num: num ** 3
+
