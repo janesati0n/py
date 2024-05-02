@@ -26,3 +26,9 @@
 # def double(x): return x*2
 # doubles = map(double, nums)
 # list(doubles) # [4, 8, 12, 16, 20]
+
+# # Coding Excercise 62: Map Time Excercise
+def decrement_list(arana):
+  return list(map(lambda x: x-1, arana))
+
+# # Filter
