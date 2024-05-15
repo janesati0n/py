@@ -62,3 +62,4 @@
 # print (all([name[0] == 'C' for name in people])) # True
 # print ([name[0] == 'C' for name in people]) # [True, True, True, True, True]
 
+# # Generator Expressions and Using sys.getsizeof
