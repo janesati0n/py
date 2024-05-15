@@ -58,3 +58,7 @@
 #   return list(filter(lambda n: n >= 0, nums))
 
 # # Any and All
+# people = ['Charlie', 'Casey', 'Cody', 'Carly', 'Cristina']
+# print (all([name[0] == 'C' for name in people])) # True
+# print ([name[0] == 'C' for name in people]) # [True, True, True, True, True]
+
