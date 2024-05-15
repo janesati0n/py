@@ -28,7 +28,27 @@
 # list(doubles) # [4, 8, 12, 16, 20]
 
 # # Coding Excercise 62: Map Time Excercise
-def decrement_list(arana):
-  return list(map(lambda x: x-1, arana))
+# def decrement_list(arana):
+#   return list(map(lambda x: x-1, arana))
 
 # # Filter
+# l = [1,2,3,4]
+# evens = list(filter(lambda x: x % 2 == 0, l))
+# print(evens) # [2,4]
+
+# names = ['austin', 'penny', 'anthony', 'angel', 'billy']
+# a_names = filter(lambda n: n[0]=='a', names)
+# print(list(a_names))
+
+# users = [
+#   {'username': 'samuel', 'tweets': ['I love cake', 'I love pie']},
+#   {'username': 'katie', 'tweets': ['I love my cat']},
+#   {'username': 'jeff', 'tweets': []},
+#   {'username': 'bob123', 'tweets': []},
+#   {'username': 'doggo_luvr', 'tweets': ['dogs are the best']},
+#   {'username': 'guitar_gal', 'tweets': []}
+# ]
+# inactive_users = [user for user in users if not user['tweets']] # using list comprehension
+# inactive_users = list(map(lambda user: user['username'].upper(),
+#     filter(lambda u: not u['tweets'], users)))
+# print(inactive_users)
