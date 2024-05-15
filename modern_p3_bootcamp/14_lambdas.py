@@ -69,3 +69,9 @@
 # print('To do the same thing, it takes...')
 # print(f"List Comprehension: {list_comp} bytes")
 # print(f"Generator Expression: {gen_exp} bytes")
+
+# # Coding Excercise 64: Any/All Excercise
+# def is_all_strings(lst):
+#   return all(type(l) == str for l in lst)
+
+# # Sorted
