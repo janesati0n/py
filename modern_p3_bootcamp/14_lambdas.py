@@ -52,3 +52,9 @@
 # inactive_users = list(map(lambda user: user['username'].upper(),
 #     filter(lambda u: not u['tweets'], users)))
 # print(inactive_users)
+
+# # Coding Excercise 63: Filter Excercise
+# def remove_negatives(nums):
+#   return list(filter(lambda n: n >= 0, nums))
+
+# # Any and All
