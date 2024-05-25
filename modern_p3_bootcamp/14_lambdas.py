@@ -137,3 +137,14 @@
 #   return (min(nums), max(nums))
 
 # # Reversed
+# nums = [1,2,3,4]
+# nums.reverse()
+# print(nums) # [4,3,2,1]
+# print(list(reversed(nums))) # [1,2,3,4]
+
+# for x in reversed(range(0,10)):
+#   print(x)
+# 9
+# 8 (...) 0
+
+# # Len() and a Special Sneak Peak of OOP!
