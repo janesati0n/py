@@ -105,3 +105,31 @@
 # ]
 # print(sorted(songs, key=lambda song: song['playcount'], reverse=True))
 
+# # Min and Max
+# max(3,67,99) # 99
+# max('c','d','a') # d
+# max('awesome') # 'w'
+# max({1:'a',3:'c',2:'b'}) # 3
+# max((3,5,23,65)) # 65
+
+
+# nums = [40,32,6,5,10]
+# max(nums) # 40
+# min(nums) # 5
+
+# names = ['Arya', 'Samson', 'Dora', 'Tim', 'Ollivander']
+# min(names) # 'Arya'
+# max(names) # 'Tim'
+# min(len(name) for name in names) # 3
+# max(names, key=lambda n:len(n)) # 'Ollivander'
+
+# songs = [
+#   {'title':'happy birthday', 'playcount':1},
+#   {'title':'Survive', 'playcount':6},
+#   {'title':'YMCA', 'playcount':99},
+#   {'title':'Toxic', 'playcount':31}
+# ]
+# print(min(songs, key=lambda s: s['playcount'])) # {'title': 'happy birthday', 'playcount': 1}
+# print(max(songs, key=lambda s: s['playcount'])['title']) # YMCA
+
+# # Excercise
