@@ -132,4 +132,8 @@
 # print(min(songs, key=lambda s: s['playcount'])) # {'title': 'happy birthday', 'playcount': 1}
 # print(max(songs, key=lambda s: s['playcount'])['title']) # YMCA
 
-# # Excercise
+# # Excercise 65: Extremes Excercise (Using min and max)
+# def extremes(nums):
+#   return (min(nums), max(nums))
+
+# # Reversed
