@@ -75,3 +75,33 @@
 #   return all(type(l) == str for l in lst)
 
 # # Sorted
+# more_numbers = [6,1,8,2]
+# sorted(more_numbers) # [1,2,6,8]
+# print(more_numbers) # [6,1,8,2]
+
+# more_numbers.sort() # LIST SPECIFIC METHOD !!!
+# print(more_numbers) # [1,2,6,8]
+
+# sorted(more_numbers, reverse=True) # [8,6,2,1]
+
+# sorted((4,6,1,30,55,23)) # [1,2,23,45,99] # WORKS ON TUPLES ASWELL !!!
+
+# users = [
+#   {'username': 'samuel', 'tweets': ['I love cake', 'I love pie']},
+#   {'username': 'katie', 'tweets': ['I love my cat']},
+#   {'username': 'jeff', 'tweets': []},
+#   {'username': 'bob123', 'tweets': []},
+#   {'username': 'doggo_luvr', 'tweets': ['dogs are the best']},
+#   {'username': 'guitar_gal', 'tweets': []}
+# ]
+# print(sorted(users,key=lambda user: user['username']))
+# print(sorted(users,key=lambda user: user['username'], reverse=True))
+
+# songs = [
+#   {'title':'happy birthday', 'playcount':1},
+#   {'title':'Survive', 'playcount':6},
+#   {'title':'YMCA', 'playcount':99},
+#   {'title':'Toxic', 'playcount':31}
+# ]
+# print(sorted(songs, key=lambda song: song['playcount'], reverse=True))
+
