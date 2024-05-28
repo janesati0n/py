@@ -148,3 +148,10 @@
 # 8 (...) 0
 
 # # Len() and a Special Sneak Peak of OOP!
+# len('awesome') # 7
+# len((1,2,3,4)) # 4
+# len([1,2,3,4]) # 4
+# len(range(1,10)) # 10
+# len({1,2,3,4}) #
+# len({'a':1, 'b':2, 'c':2}) # 3
+
