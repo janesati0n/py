@@ -155,3 +155,31 @@
 # len({1,2,3,4}) #
 # len({'a':1, 'b':2, 'c':2}) # 3
 
+# # Abs(), Sum() and Round()
+# abs(-5) # 5 # absolutna hodnota
+# abs(5) # 5
+# abs(float('20')) # 20.0
+
+# import math
+# math.fabs(-4) # 4.0
+
+# sum([1,2,3]) # 6
+# sum([1,2,3], 10) # 16
+# sum((1.5,2,3.7)) # 7.2
+
+# round(10.2) # 10
+# round(1.212121, 2) # 1.21
+
+# # Coding Excercise 66: Greatest Magnitude Excercise
+# def max_magnitude(nums):
+#   return max(abs(num) for num in nums)
+
+# # Coding Excercise 67: Sum Even Values
+# def sum_even_values(*args):
+#   return sum(arg for arg in args if arg % 2 == 0)
+
+# # Coding Excercise 68: Sum Floats
+# def sum_floats(*args):
+#   return sum(arg for arg in args if type(arg) == float)
+
+# # Zip Basics
