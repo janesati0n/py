@@ -183,3 +183,6 @@
 #   return sum(arg for arg in args if type(arg) == float)
 
 # # Zip Basics
+# first_zip = zip([1,2,3], [4,5,6])
+# list(first_zip) # [(1,4), (2,5), (3,6)]
+# dict(first_zip) # {1: 4, 2: 5, 3: 6}
