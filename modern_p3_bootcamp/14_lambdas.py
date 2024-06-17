@@ -191,3 +191,47 @@
 # list(zip(*five_by_two)) # [(0, 1, 2, 3, 4), (1, 2, 3, 4, 5)]
 
 # # More Complex Zip Examples
+midterms = [80, 91, 78]
+finals = [98, 89, 53]
+students = ['dan', 'ang', 'kate']
+
+# v1
+# final_grades = [pair for pair in zip(midterms, finals)]
+# print(final_grades) # [(80, 98), (91, 89), (78, 53)]
+
+# v2
+# final_grades = {t[0]:max(t[1], t[2]) for t in zip(students, midterms, finals)}
+# print(final_grades) # {'dan': 98, 'ang': 91, 'kate': 78}
+
+# v3
+# scores = map(
+#   lambda pair: max(pair),
+#   zip(midterms, finals)
+# )
+# print(list(scores))
+
+# v4
+# final_grades = dict(
+#   zip(
+#     students,
+#     map(
+#       lambda pair: max(pair),
+#       zip(midterms, finals)
+#     )
+#   )
+# )
+# print(final_grades)
+
+# v5
+# avg_grades = dict(
+#   zip(
+#     students,
+#     map(
+#       lambda pair: ((pair[0] + pair[1])/2),
+#       zip(midterms, finals)
+#     )
+#   )
+# )
+# print(avg_grades)
+
+# # Coding Excercise 69: Interleaving String
