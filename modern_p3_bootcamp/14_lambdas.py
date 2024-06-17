@@ -235,3 +235,8 @@ students = ['dan', 'ang', 'kate']
 # print(avg_grades)
 
 # # Coding Excercise 69: Interleaving String
+# def interleave(str1,str2):
+#   return ''.join(''.join(x) for x in (zip(str1,str2)))
+# interleave('hi', 'ha') # hhia
+# interleave('aaa', 'zzz') # azazaz
+# interleave('lzr', 'iad') # lizard
