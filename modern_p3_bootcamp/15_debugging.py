@@ -1,5 +1,4 @@
 # # Common Types of Errors
-
 # SyntaxError # typos # incorrect syntax
   #def name(( # SyntaxError
 
