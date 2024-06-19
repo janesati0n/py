@@ -21,3 +21,17 @@
 
 # AttributeError # var does not have an attribute
   # 'awesome'.foo # AttributeError
+
+# # Raising Our Own Errors
+# def colorize(text, color):
+#   colors = ("cyan", "yellow", "blue", "green", "magenta")
+#   if type(color) is not str:
+#     raise TypeError("color must be instance of str")
+#   if type(text) is not str:
+#     raise TypeError("text must be instance of str")
+#   if color not in colors:
+#     raise ValueError("color is invalid color")
+#   print(f"Printed {text} in {color}")
+# colorize("hello", "magenta") # Printed hello in magenta
+# colorize(34, "magenta") # TypeError: text must be instance of str
+# colorize("hello", "red") # ValueError: color is invalid color
