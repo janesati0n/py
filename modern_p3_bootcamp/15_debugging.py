@@ -52,3 +52,15 @@
 # d = {'name': 'Ricky'}
 # print(get(d, 'name')) # Ricky
 # print(get(d, 'city')) # None
+
+# # Try, Except, Else and Finally!
+# while True:
+#   try:
+#     num = int(input('Please enter a number: '))
+#   except:
+#     print("That's not a number!")
+#   else:
+#     print("Good boy, you entered a number!") # if not in except, we will be here
+#     break
+#   finally:
+#     print("I'll run no matter what!")
