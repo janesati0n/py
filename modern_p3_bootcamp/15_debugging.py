@@ -35,3 +35,20 @@
 # colorize("hello", "magenta") # Printed hello in magenta
 # colorize(34, "magenta") # TypeError: text must be instance of str
 # colorize("hello", "red") # ValueError: color is invalid color
+
+# # Try and Except Blocks
+# try:
+#   foobar
+# except:
+#   print('PROBLEM!')
+# print('after the try')
+
+# def get(d,key):
+#   try:
+#     return d[key]
+#   except KeyError:
+#     return None
+
+# d = {'name': 'Ricky'}
+# print(get(d, 'name')) # Ricky
+# print(get(d, 'city')) # None
