@@ -98,3 +98,21 @@
 # print(divide(1,'a'))
 
 # # Debugging with PDB
+# Common PDB commands:
+# l (list)
+# n (next line)
+# p (print)
+# c (continue - finishes debugging)
+
+# import pdb
+# pdb.set_trace()
+# first = "First"
+# second = "Second"
+# result = first + second
+# third = "Third"
+# result += third
+# print(result)
+
+# def add_numbers(a,b,c,d)
+#   import pdb; pdb.set_trace()
+#   return a + b + c + d
