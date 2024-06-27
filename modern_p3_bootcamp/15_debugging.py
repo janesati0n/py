@@ -57,10 +57,44 @@
 # while True:
 #   try:
 #     num = int(input('Please enter a number: '))
-#   except:
+#   except ValueError:
 #     print("That's not a number!")
 #   else:
 #     print("Good boy, you entered a number!") # if not in except, we will be here
 #     break
 #   finally:
 #     print("I'll run no matter what!")
+# print("REST OF GAME LOGIC RUNS!")
+
+# def divide(a,b):
+#   try:
+#     return a/b
+#   except:
+#     print("Something went wrong!")
+# print(divide(1,2))
+# print(divide(1,0))
+
+# def divide(a,b):
+#   try:
+#     return a/b
+#   except ZeroDivisionError:
+#     print("Don't divide by zero please!")
+#   except TypeError:
+#     print("a and b must be ints or floats")
+# print(divide(1,2))
+# print(divide(1,0))
+# print(divide(1,'a'))
+
+# def divide(a,b):
+#   try:
+#     result = a/b
+#   except (ZeroDivisionError, TypeError) as err:
+#     print("Something went wrong!")
+#     print(err)
+#   else:
+#     print(f"{a} divided by {b} is {result}")
+# print(divide(1,2))
+# print(divide(1,0))
+# print(divide(1,'a'))
+
+# # Debugging with PDB
