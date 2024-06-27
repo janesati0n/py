@@ -113,6 +113,8 @@
 # result += third
 # print(result)
 
-# def add_numbers(a,b,c,d)
+# def add_numbers(a,b,c,d):
 #   import pdb; pdb.set_trace() # PDB as one-liner
 #   return a + b + c + d
+# add_numbers(1,2,3,4)
+# # to print value of c instead of quitting - use "p c"
