@@ -114,5 +114,5 @@
 # print(result)
 
 # def add_numbers(a,b,c,d)
-#   import pdb; pdb.set_trace()
+#   import pdb; pdb.set_trace() # PDB as one-liner
 #   return a + b + c + d
