@@ -12,4 +12,14 @@
 # mix_up_fruits(["apple", "banana", "cherry", "durian"])
 
 # # Coding Excercise 73: Built in Modules
+# import math
+# answer = math.sqrt(15129)
 
+# # Coding Excercise 74: Slightly Tougher
+# import keyword
+# def contains_keyword(*args):
+#   for item in args:
+#     if keyword.iskeyword(item): return True
+#   return False
+
+# # Custom modules
