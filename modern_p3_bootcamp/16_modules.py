@@ -48,3 +48,11 @@
 # print(dip())
 
 # # Coding Excercise 75: Custom Module
+### helpers.py ###
+# def lucky_number():
+#   return 37
+
+### excercise.py ###
+# import helpers
+# num = helpers.lucky_number()
+
