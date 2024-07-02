@@ -23,3 +23,28 @@
 #   return False
 
 # # Custom modules
+### bananas.py ###
+# def peel():
+#   return "Here's a delicious banana!"
+# def dip_in_chocolate():
+#   return "Here's a delicious banana, dipped in chocolate!"
+# def sell():
+#   return "There's always money in the banana stand."
+
+### apples.py ###
+# def offer():
+#   return "Hey, do you like apples?"
+# def bake():
+#   return "Mmmm, pie..."
+
+### fruits.py ###
+# import bananas
+# import apples
+# print(bananas.dip_in_chocolate())
+# print(apples.offer())
+
+### alternative take ###
+# from bananas import dip_in_chocolate as dip
+# print(dip())
+
+# # Coding Excercise 75: Custom Module
