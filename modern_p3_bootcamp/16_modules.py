@@ -56,3 +56,12 @@
 # import helpers
 # num = helpers.lucky_number()
 
+# # Installing External Modules and TermColor
+# from colorama import init # use it to make termcolor work on Windows
+# from termcolor import colored
+# init()
+# print(colored('Hello, World!', 'green', 'on_red'))
+
+# import termcolor
+# print(dir(termcolor)) # to show attributes in module
+
