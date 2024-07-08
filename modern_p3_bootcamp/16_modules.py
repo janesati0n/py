@@ -66,5 +66,5 @@
 # help(termcolor) # show overview of functions in module
 
 # from termcolor import colored
-# text = colored('hi there!', color="cyan")
+# text = colored('hi there!', color="magenta", on_color="on_cyan", attrs=["blink"])
 # print(text)
