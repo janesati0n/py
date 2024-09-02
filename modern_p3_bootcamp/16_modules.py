@@ -93,3 +93,16 @@
 # autopep8 --in-place -a ugly_code.py //in CLI
 
 # # The __name__ variable
+
+## say_hi.py ###
+# from say_sup import say_sup
+# def say_hi():
+#   print(f"Hi! My __name__ is {__name__}")
+# say_hi() # Hi! My __name__ is __main__
+# say_sup() # Sup! My __name__ is say_sup
+
+### say_sup.py ###
+# def say_sup():
+#   print(f"Sup! My __name__ is {__name__}")
+# if __name__ == "__main__":
+#   say_sup() # Sup! My __name__ is __main__
