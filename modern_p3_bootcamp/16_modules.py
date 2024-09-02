@@ -70,17 +70,23 @@
 # print(text)
 
 # # ASCII Art Excercise
-# import pyfiglet
+# from pyfiglet import figlet_format
 # from termcolor import colored
 # from colorama import init
 # init()
-# valid_colors = ("red", "green", "yellow", "blue", "magenta", "cyan", "white")
+
+# def print_art(msg, color):
+#   valid_colors = ("red", "green", "yellow", "blue", "magenta", "cyan", "white")
+
+#   if color not in valid_colors:
+#     color = "white"
+
+#   ascii_art = figlet_format(msg)
+#   colored_ascii = colored(ascii_art, color=color)
+#   print(colored_ascii)
 
 # msg = input("What would you like to print? ")
 # color = input("What color? ")
-# if color not in valid_colors:
-#   color = "white"
+# print_art(msg, color)
 
-# ascii_art = pyfiglet.figlet_format(msg)
-# colored_ascii = colored(ascii_art, color=color)
-# print(colored_ascii)
+# # Using The autopep8 Package to Clean up code
