@@ -89,4 +89,7 @@
 # color = input("What color? ")
 # print_art(msg, color)
 
-# # Using The autopep8 Package to Clean up code
+# # Using The autopep8 to clean up code
+# autopep8 --in-place -a ugly_code.py //in CLI
+
+# # The __name__ variable
