@@ -68,3 +68,19 @@
 # from termcolor import colored
 # text = colored('hi there!', color="magenta", on_color="on_cyan", attrs=["blink"])
 # print(text)
+
+# # ASCII Art Excercise
+# import pyfiglet
+# from termcolor import colored
+# from colorama import init
+# init()
+# valid_colors = ("red", "green", "yellow", "blue", "magenta", "cyan", "white")
+
+# msg = input("What would you like to print? ")
+# color = input("What color? ")
+# if color not in valid_colors:
+#   color = "white"
+
+# ascii_art = pyfiglet.figlet_format(msg)
+# colored_ascii = colored(ascii_art, color=color)
+# print(colored_ascii)
